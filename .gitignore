@@ -1,0 +1,14 @@
+syntax: glob
+.idea/
+_site/
+
+*.DS_Store
+*~
+
+*.~lock*
+
+*.orig
+
+Gemfile.lock
+
+
