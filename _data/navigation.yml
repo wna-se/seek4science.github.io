@@ -1,0 +1,13 @@
+main:
+  - title: 'About SEEK'
+    url: '/about.html'
+  - title: 'About Us'
+    url: '/about_us.html'
+  - title: 'Getting SEEK'
+    url: '/get_seek.html'
+  - title: 'Publications'
+    url: '/publications.html'
+  - title: 'Registration'
+    url: '/seek-registration.html'
+  - title: 'Contacting Us'
+    url: '/contact.html'

@@ -1,2 +1,13 @@
 #theme: jekyll-theme-slate
-remote_theme: "mmistakes/minimal-mistakes"
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "seek"
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      classes:
+        - wide

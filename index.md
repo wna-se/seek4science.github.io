@@ -1,37 +1,54 @@
-## Welcome to GitHub Pages
+---
+title: 'Seek4Science'
+layout: splash
 
-You can use the [editor on GitHub](https://github.com/seek4science/seek4science.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+row1:
+  - image_path: /assets/images/ISA-feature.png
+    alt: "ISA"
+    title: "Organise and store data"
+    excerpt: "SEEK has adopted an ISATAB style structure for organising experiments and data."
+    url: "/organise"    
+  - image_path: /assets/images/Excel-feature.png
+    alt: "Explore and annotate"
+    title: "Explore and annotate data"
+    excerpt: "Excel spreadsheets can be explored and annotated without the need to download."
+    url: "/explore_and_annotate"    
+  - image_path: /assets/images/Model-simulation-feature.png
+    alt: "Simulate SBML"
+    title: "Simulate SBML models"
+    excerpt: "Most models that conforms to the SBML format can be simulated within SEEK."
+    url: "/simulate_sbml"
+    
+row2:
+  - image_path: /assets/images/Who-feature.png
+    alt: "Who is doing what"
+    title: "Who is doing what, where?"
+    excerpt: "We recognise that people, and their knowledge, are important."
+    url: "/yellow_pages"    
+  - image_path: /assets/images/Sharing-feature.png
+    alt: "Sharing"
+    title: "Flexible sharing controls"
+    excerpt: "There is a lot of flexibility and control over who can see, download or edit your items."
+    url: "/flexible_sharing"    
+  - image_path: /assets/images/Rightfield-feature.png
+    alt: "Rightfield"
+    title: "Semantic spreadsheet templates"
+    excerpt: "RightField enabled sheets allow rich semantic descriptions of data. Our Just Enough Results Model can be used with Rightfield."
+    url: "/rightfield_templates"    
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+---
 
-### Markdown
+SEEK is a web-based cataloguing and commons platform, for sharing heterogeneous scientific research datasets, models or simulations, processes and research outcomes. It preserves associations between them, along with information about the people and organisations involved.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Underpinning SEEK is the ISA infrastructure, a standard framework for describing how individual experiments are aggregated into wider studies and investigations. Within SEEK, ISA has been extended and is configurable to allow the structure to be used outside of Biology.
 
-```markdown
-Syntax highlighted code block
+Flexible and detailed sharing permissions are available to manage the catalogued items from early collaborations within projects, through to the publishing of final research results. At this point a DOI can be generated for individual items, or entire aggregates packaged as Research Objects
 
-# Header 1
-## Header 2
-### Header 3
+SEEK incorporates semantic technology, allowing sophisticated queries over the content. Metadata can be collected using standard Excel tools and processes, through the use of RightField.
 
-- Bulleted
-- List
+A publically available instance of a SEEK commons is available - as the FAIRDOMHub.
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+{% include feature_row id="row1" %}
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/seek4science/seek4science.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+{% include feature_row id="row2" %}
