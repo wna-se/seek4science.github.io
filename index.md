@@ -1,6 +1,8 @@
 ---
 title: 'Seek4Science'
 layout: splash
+classes:
+    - wide
 
 row1:
   - image_path: /assets/images/ISA-feature.png
@@ -35,6 +37,7 @@ row2:
     title: "Semantic spreadsheet templates"
     excerpt: "RightField enabled sheets allow rich semantic descriptions of data. Our Just Enough Results Model can be used with Rightfield."
     url: "/rightfield_templates"    
+  
 
 ---
 

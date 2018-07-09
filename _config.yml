@@ -2,6 +2,8 @@
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "seek"
 
+include: ["_pages"]
+
 defaults:
   # _pages
   - scope:
