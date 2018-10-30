@@ -1,5 +1,5 @@
 ---
-title: 'About Seek4Science'
+title: 'About SEEK'
 layout: 'single'
 ---
 
