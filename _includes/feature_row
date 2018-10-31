@@ -16,6 +16,9 @@
 
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="archive__item">
+        {% if f.title %}
+                    <h2 class="archive__item-title">{{ f.title }}</h2>
+        {% endif %}
         {% if f.image_path %}
         <a href="{{ f_url }}">
           <div class="archive__item-teaser">
@@ -34,9 +37,7 @@
         {% endif %}
 
         <div class="archive__item-body">
-          {% if f.title %}
-            <h2 class="archive__item-title">{{ f.title }}</h2>
-          {% endif %}
+
 
           {% if f.excerpt %}
             <div class="archive__item-excerpt">

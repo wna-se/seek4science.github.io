@@ -9,37 +9,39 @@ row1:
     alt: "ISA"
     title: "Organise and store data"
     excerpt: "SEEK has adopted an ISATAB style structure for organising experiments and data."
-    url: "/organise"    
+    url: "/organise.html"    
   - image_path: /assets/images/Excel-feature.png
     alt: "Explore and annotate"
     title: "Explore and annotate data"
     excerpt: "Excel spreadsheets can be explored and annotated without the need to download."
-    url: "/explore_and_annotate"    
+    url: "/explore_and_annotate.html"    
   - image_path: /assets/images/Model-simulation-feature.png
     alt: "Simulate SBML"
     title: "Simulate SBML models"
     excerpt: "Most models that conforms to the SBML format can be simulated within SEEK."
-    url: "/simulate_sbml"
+    url: "/simulate_sbml.html"
     
 row2:
   - image_path: /assets/images/Who-feature.png
     alt: "Who is doing what"
     title: "Who is doing what, where?"
     excerpt: "We recognise that people, and their knowledge, are important."
-    url: "/yellow_pages"    
+    url: "/yellow_pages.html"    
   - image_path: /assets/images/Sharing-feature.png
     alt: "Sharing"
     title: "Flexible sharing controls"
     excerpt: "There is a lot of flexibility and control over who can see, download or edit your items."
-    url: "/flexible_sharing"    
+    url: "/flexible_sharing.html"    
   - image_path: /assets/images/Rightfield-feature.png
     alt: "Rightfield"
     title: "Semantic templates"
     excerpt: "RightField enabled sheets allow rich semantic descriptions of data. Our Just Enough Results Model can be used with Rightfield."
-    url: "/rightfield_templates"    
+    url: "/rightfield_templates.html"    
   
 
 ---
+
+<p id='intro-text' markdown='1'>
 
 SEEK is a web-based cataloguing and commons platform, for sharing heterogeneous scientific research datasets, models or simulations, processes and research outcomes. It preserves associations between them, along with information about the people and organisations involved.
 
@@ -49,8 +51,9 @@ Flexible and detailed sharing permissions are available to manage the catalogued
 
 SEEK incorporates semantic technology, allowing sophisticated queries over the content. Metadata can be collected using standard Excel tools and processes, through the use of RightField.
 
-A publically available instance of a SEEK commons is available - as the FAIRDOMHub.
+A publically available instance of a SEEK commons is available - as the [FAIRDOMHub](https://fairdomhub.org).
 
+</p>
 
 {% include feature_row id="row1" %}
 
