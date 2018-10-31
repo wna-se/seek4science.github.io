@@ -1,4 +1,5 @@
 ---
+permalink: /about_us.html
 title: 'About Us'
 layout: 'single'
 ---

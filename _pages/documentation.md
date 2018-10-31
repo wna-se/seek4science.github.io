@@ -1,4 +1,5 @@
 ---
+permalink: /documentation.html
 title: 'SEEK Documentation'
 layout: 'single'
 ---

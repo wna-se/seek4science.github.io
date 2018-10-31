@@ -1,4 +1,5 @@
 ---
+permalink: /contact.html
 title: 'Contacting Us'
 layout: 'single'
 ---

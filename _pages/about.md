@@ -1,4 +1,5 @@
 ---
+permalink: /about.html
 title: 'About SEEK'
 layout: 'single'
 ---

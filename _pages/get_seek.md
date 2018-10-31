@@ -1,4 +1,5 @@
 ---
+permalink: /get_seek.html
 title: 'Get SEEK'
 layout: 'single'
 ---

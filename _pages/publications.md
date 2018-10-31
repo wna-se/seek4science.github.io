@@ -1,4 +1,5 @@
 ---
+permalink: /publications.html
 title: 'Publications'
 layout: 'single'
 ---
