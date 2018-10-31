@@ -13,8 +13,9 @@ $footer-text-color: mix(#000, $text-color, 50%) !default;
 $link-color: #30599e !default;
 $masthead-background-color: $footer-background-color !default;
 $masthead-link-color: mix(#555,$text-color,50%) !default;
-$masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
+$masthead-link-color-hover: mix(#000, $text-color, 100%) !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+
 
 $teaser-item-border-color: mix(#fff, $border-color, 50%) !default;
 
@@ -23,7 +24,7 @@ $teaser-item-border-color: mix(#fff, $border-color, 50%) !default;
   p,
   li,
   dl {
-    font-size: 0.8em !important;
+    font-size: 0.9em !important;
   }
 }
 
@@ -32,7 +33,7 @@ $teaser-item-border-color: mix(#fff, $border-color, 50%) !default;
 }
 
 .page__footer {
-  color: #fff !important; // override
+  color: $footer-text-color !important; // override
 }
 
 .page__footer-follow .social-icons .svg-inline--fa {
@@ -40,6 +41,8 @@ $teaser-item-border-color: mix(#fff, $border-color, 50%) !default;
 }
 
 .masthead {
+  margin-top: 0.5em;
+  border-top: 1px solid $border-color;
   background: $masthead-background-color;
 }
 
@@ -48,9 +51,9 @@ $teaser-item-border-color: mix(#fff, $border-color, 50%) !default;
 }
 
 .site-title {
-  width: 100px;
-  float:left;
-  padding-left: 1em !important;
+  width: 50px;
+  float: left;
+  padding: 0 !important;
 }
 
 .masthead__inner-wrap {
