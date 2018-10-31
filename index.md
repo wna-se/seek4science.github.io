@@ -34,7 +34,7 @@ row2:
     url: "/flexible_sharing"    
   - image_path: /assets/images/Rightfield-feature.png
     alt: "Rightfield"
-    title: "Semantic spreadsheet templates"
+    title: "Semantic templates"
     excerpt: "RightField enabled sheets allow rich semantic descriptions of data. Our Just Enough Results Model can be used with Rightfield."
     url: "/rightfield_templates"    
   

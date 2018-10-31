@@ -3,16 +3,29 @@
    ========================================================================== */
 
 /* Colors */
-$background-color: #f6f6f6 !default;
+$background-color: #fcfcfc !default;
 $text-color: #40514e !default;
 $muted-text-color: #40514e !default;
-$primary-color: #2d87cd !default;
-$border-color: mix(#fff, #40514e, 75%) !default;
-$footer-background-color: #5c95c0 !default;
+$primary-color: #283d8f !default;
+$border-color: mix(#000, $background-color, 25%) !default;
+$footer-background-color: mix(#000, $background-color, 10%) !default;
+$footer-text-color: mix(#000, $text-color, 50%) !default;
 $link-color: #30599e !default;
-$masthead-link-color: $text-color !default;
-$masthead-link-color-hover: $text-color !default;
+$masthead-background-color: $footer-background-color !default;
+$masthead-link-color: mix(#555,$text-color,50%) !default;
+$masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+
+$teaser-item-border-color: mix(#fff, $border-color, 50%) !default;
+
+/* Fonts */
+.page__content {
+  p,
+  li,
+  dl {
+    font-size: 0.8em !important;
+  }
+}
 
 .page {
   width: 100% !important;
@@ -24,4 +37,37 @@ $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
 .page__footer-follow .social-icons .svg-inline--fa {
   color: inherit;
+}
+
+.masthead {
+  background: $masthead-background-color;
+}
+
+.greedy-nav {
+  background: $masthead-background-color !important;
+}
+
+.site-title {
+  width: 100px;
+  float:left;
+  padding-left: 1em !important;
+}
+
+.masthead__inner-wrap {
+  padding: 0.2em !important;
+}
+
+.feature__item .archive__item-teaser {
+  min-height: 12em;
+  border: $teaser-item-border-color solid 1px;
+  padding: 0.25em;
+}
+
+.feature__item {
+
+}
+
+h2.archive__item-title {
+  font-size: 1em;
+  text-align: center;
 }
