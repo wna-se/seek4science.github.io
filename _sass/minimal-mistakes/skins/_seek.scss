@@ -61,6 +61,7 @@ $teaser-item-border-color: mix(#fff, $border-color, 50%) !default;
   min-height: 12em;
   border: $teaser-item-border-color solid 1px;
   padding: 0.25em;
+  background-color: white;
 }
 
 .feature__item {
