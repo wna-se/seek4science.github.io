@@ -14,4 +14,4 @@ With a quick glance it also is possible to see what items they have been involve
 
 
 
-![Yellow_pages feature](/assets/images/Who-feature.png){: .align-center}
+![Yellow_pages feature](/assets/images/Who-feature.png){: .screenshot}

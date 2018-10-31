@@ -10,4 +10,4 @@ The [JWS Online](http://jjj.mib.ac.uk/) model simulator presents a schematic dia
 
 
 
-![Simulate_SBML feature](/assets/images/Model-simulation-feature.png){: .align-center}
+![Simulate_SBML feature](/assets/images/Model-simulation-feature.png){: .screenshot}

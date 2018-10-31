@@ -13,4 +13,4 @@ When you are ready, especially if you are publishing, you can make your items en
 
 
 
-![Sharing feature](/assets/images/Sharing-feature.png){: .align-center}
+![Sharing feature](/assets/images/Sharing-feature.png){: .screenshot}

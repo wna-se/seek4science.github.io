@@ -84,3 +84,11 @@ p#intro-text {
   background-color: white;
   text-align: center;
 }
+
+img.screenshot {
+  border: 1px solid $teaser-item-border-color;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}

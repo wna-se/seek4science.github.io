@@ -13,4 +13,4 @@ Rightfield coversheets can be used in conjunction with any data files to ensure 
 SEEK supports automatic extraction from these templates, after they have been filled out and use, to make adding data to SEEK and describing it easier, and also enhance the ability to discover data.
 
 
-![Rightfield feature](/assets/images/Rightfield-feature.png){: .align-center}
+![Rightfield feature](/assets/images/Rightfield-feature.png){: .screenshot}
