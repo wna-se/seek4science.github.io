@@ -1,8 +1,9 @@
 main:
-  - title: 'About SEEK'
-    url: '/about.html'
+
   - title: 'About Us'
     url: '/about_us.html'
+  - title: 'Features'
+    url: '/features.html'
   - title: 'Getting SEEK'
     url: '/get_seek.html'
   - title: 'Publications'

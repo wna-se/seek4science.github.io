@@ -4,6 +4,10 @@ minimal_mistakes_skin: "seek"
 
 include: ["_pages"]
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
 defaults:
   # _pages
   - scope:
