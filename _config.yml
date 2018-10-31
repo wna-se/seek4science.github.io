@@ -19,3 +19,4 @@ defaults:
         - wide
 
 title: 'seek4science.org'
+search: true
