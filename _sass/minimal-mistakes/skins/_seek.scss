@@ -78,11 +78,13 @@ h2.archive__item-title {
   text-align: center;
 }
 
-p#intro-text {
+#intro-text {
   border: 1px solid $teaser-item-border-color;
   padding: 1em;
   background-color: white;
   text-align: center;
+  font-size: smaller;
+  margin-bottom: 1em;
 }
 
 img.screenshot {
@@ -91,4 +93,18 @@ img.screenshot {
   margin-left: auto;
   margin-right: auto;
 
+}
+
+img#front-screen-logo {
+  width: 10em;
+  float: left;
+}
+
+img#fairdomhub-logo {
+  display:none; //until wrapping text problem fixed
+  width: 8em;
+  background-color: #273847;
+  float:right;
+  margin-top: -3.5em;
+  font-size: smaller;
 }

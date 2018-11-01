@@ -1,4 +1,5 @@
 ---
+permalink: /index.html
 title: 'Seek4Science'
 layout: splash
 classes:
@@ -41,19 +42,31 @@ row2:
 
 ---
 
-<p id='intro-text' markdown='1'>
+<div id='intro-text' markdown='1'>
 
-SEEK is a web-based cataloguing and commons platform, for sharing heterogeneous scientific research datasets, models or simulations, processes and research outcomes. It preserves associations between them, along with information about the people and organisations involved.
+![SEEK_logo](/assets/images/seek-logo.svg){: #front-screen-logo}
 
-Underpinning SEEK is the ISA infrastructure, a standard framework for describing how individual experiments are aggregated into wider studies and investigations. Within SEEK, ISA has been extended and is configurable to allow the structure to be used outside of Biology.
 
-Flexible and detailed sharing permissions are available to manage the catalogued items from early collaborations within projects, through to the publishing of final research results. At this point a DOI can be generated for individual items, or entire aggregates packaged as Research Objects
+SEEK is a web-based cataloguing and commons platform, for sharing heterogeneous scientific research datasets, models or simulations, processes and research outcomes. 
+It preserves associations between them, along with information about the people and organisations.
 
-SEEK incorporates semantic technology, allowing sophisticated queries over the content. Metadata can be collected using standard Excel tools and processes, through the use of RightField.
+
+Underpinning SEEK is the [ISA infrastructure](http://isa-tools.org/), a standard framework for describing how individual experiments are aggregated into wider studies and investigations. 
+Within SEEK, ISA has been extended and is configurable to allow the structure to be used outside of Biology.
+
+
+Flexible and detailed sharing permissions are available to manage the catalogued items from early collaborations within projects, 
+through to the publishing of final research results. At this point a DOI can be generated for individual items, or entire aggregates packaged as [Research Objects](http://www.researchobject.org/)
+
+
+SEEK incorporates semantic technology, allowing sophisticated queries over the content. 
+Metadata can be collected using standard Excel tools and processes, through the use of [RightField](http://rightfield.org.uk/).
 
 A publically available instance of a SEEK commons is available - as the [FAIRDOMHub](https://fairdomhub.org).
 
-</p>
+[![Fairdomhub](/assets/images/fairdomhub-logo.svg){: #fairdomhub-logo}](https://fairdomhub.org)
+
+</div>
 
 {% include feature_row id="row1" %}
 
