@@ -25,3 +25,9 @@ search_provider: google
 google:
   search_engine_id: 000557171303025515437:vrcbow5ltbc
   instant_search: false
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-71406140-3"
+    anonymize_ip: true
