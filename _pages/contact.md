@@ -29,4 +29,4 @@ For community related questions, you can use [community@fair-dom.org](mailto:com
 
 ## Reporting bugs and feature requests
 
-Please visit [Reporting Bugs and raising Feature Requests](/tech/reporting-bugs-and-features.html)
+Please visit [Reporting Bugs and raising Feature Requests](https://docs.seek4science.org/tech/reporting-bugs-and-features.html)
