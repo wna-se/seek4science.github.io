@@ -2,25 +2,41 @@
 
 <link href="/assets/images/favicon.png" rel="shortcut icon" type="image/png" />
 
-<!-- end custom head snippets -->
-
-<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+<!-- test -->
 
 {% if page.url == "/index.html" %}
-    <script  type="application/ld+json">
-        { "@context": "http://schema.org",
-            "@type": "SoftwareApplication",
-            "image": "https://seek4science.org/assets/images/seek-logo.svg",
-            "applicationCategory": ["Web","Scientific","Data Management","Knowledge Management","Open Science"],
-            "operatingSystem":"Linux",
-            "license": "https://raw.githubusercontent.com/seek4science/seek/master/BSD-LICENSE",
-            "exampleOfWork":{"@type":"CreativeWork","@id":"https://fairdomhub.org","name":"FAIRDOMHub","url":"https://fairdomhub.org"},
-            "copyrightYear":"2009",
-            "url":"https://seek4science.org",
-            "producer":{"@type":"Organization","url":"https://fair-dom.org","name":"FAIRDOM","image":"https://fair-dom.org/wp-content/uploads/2016/09/fairdom-logo-square5-blue.png"},
-            "name":"SEEK4Science",
-            "description":"SEEK is a web-based cataloguing and commons platform, for sharing heterogeneous scientific research datasets, models or simulations, processes and research outcomes. It preserves associations between them, along with information about the people and organisations."
-
-        }
-    </script>
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "SoftwareApplication",
+        "image": "https://seek4science.org/assets/images/seek-logo.svg",
+        "applicationCategory": [
+            "Web",
+            "Scientific",
+            "Data Management",
+            "Knowledge Management",
+            "Open Science"
+        ],
+        "operatingSystem": "Linux",
+        "license": "https://raw.githubusercontent.com/seek4science/seek/master/BSD-LICENSE",
+        "exampleOfWork": {
+            "@type": "CreativeWork",
+            "@id": "https://fairdomhub.org",
+            "name": "FAIRDOMHub",
+            "url": "https://fairdomhub.org"
+        },
+        "copyrightYear": "2009",
+        "url": "https://seek4science.org",
+        "producer": {
+            "@type": "Organization",
+            "url": "https://fair-dom.org",
+            "name": "FAIRDOM",
+            "image": "https://fair-dom.org/wp-content/uploads/2016/09/fairdom-logo-square5-blue.png"
+        },
+        "name": "SEEK4Science",
+        "description": "SEEK is a web-based cataloguing and commons platform, for sharing heterogeneous scientific research datasets, models or simulations, processes and research outcomes. It preserves associations between them, along with information about the people and organisations."
+    }
+</script>
 {% endif %}
+
+<!-- end custom head snippets -->
