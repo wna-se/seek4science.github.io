@@ -19,6 +19,7 @@ defaults:
         - wide
 
 title: 'seek4science.org'
+locale: en_GB
 
 search: true
 search_provider: google
