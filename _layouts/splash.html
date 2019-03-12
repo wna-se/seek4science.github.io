@@ -8,14 +8,32 @@ layout: default
   {% include page__hero_video.html %}
 {% endif %}
 
+
+<script  type="application/ld+json">
+  { "@context": "http://schema.org",
+    "@type": "SoftwareApplication",
+    "image": "https://seek4science.org/assets/images/seek-logo.svg",
+    "applicationCategory": ["Web","Scientific","Data Management","Knowledge Management","Open Science"],
+    "operatingSystem":"Linux",
+    "license": "https://raw.githubusercontent.com/seek4science/seek/master/BSD-LICENSE",
+    "exampleOfWork":{"@type":"CreativeWork","@id":"https://fairdomhub.org","name":"FAIRDOMHub","url":"https://fairdomhub.org"},
+    "copyrightYear":"2009",
+    "url":"https://seek4science.org",
+    "producer":{"@type":"Organization","url":"https://fair-dom.org","name":"FAIRDOM","image":"https://fair-dom.org/wp-content/uploads/2016/09/fairdom-logo-square5-blue.png"},
+    "name":"SEEK4Science",
+    "description":"SEEK is a web-based cataloguing and commons platform, for sharing heterogeneous scientific research datasets, models or simulations, processes and research outcomes. It preserves associations between them, along with information about the people and organisations."
+
+  }
+</script>
+
 <div id="main" role="main">
-  <article class="splash" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="splash" >
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
 
-    <section class="page__content" itemprop="text">
+    <section class="page__content">
       {{ content }}
     </section>
   </article>
