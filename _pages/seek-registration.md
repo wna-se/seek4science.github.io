@@ -1,6 +1,6 @@
 ---
 permalink: /seek-registration.html
-title: 'SEEK Registration'
+title: 'FAIRDOM-SEEK Registration'
 layout: 'single'
 ---
 

@@ -1,10 +1,10 @@
 ---
 permalink: /documentation.html
-title: 'SEEK Documentation'
+title: 'FAIRDOM-SEEK Documentation'
 layout: 'single'
 ---
 
-The SEEK Documentation can be found at [https://docs.seek4science.org](https://docs.seek4science.org)
+The FAIRDOM-SEEK Documentation can be found at [https://docs.seek4science.org](https://docs.seek4science.org)
 
 This includes:
 

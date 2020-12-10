@@ -7,15 +7,15 @@ layout: 'single'
 * TOC
 {:toc}
 
-### What is SEEK?
+### What is FAIRDOM-SEEK?
 
-SEEK is an open-source, web-based platform and suite of software tools for the management, linking, exploration and exchange of Systems Biology data, models and Standard Operating Procedures (SOPs). SEEK is designed to facilitate data sharing and collaborations between scientists.
+FAIRDOM-SEEK is an open-source, web-based platform and suite of software tools for the management, linking, exploration and exchange of Systems Biology data, models and Standard Operating Procedures (SOPs). SEEK is designed to facilitate data sharing and collaborations between scientists.
 
-### How do I cite SEEK?
+### How do I cite FAIRDOM-SEEK?
 
-If you have been using SEEK in your research then please cite us. The key SEEK publications to cite are:
+If you have been using FAIRDOM-SEEK in your research then please cite us. The key SEEK publications to cite are:
 
-#### SEEK: a systems biology data and model management platform. _BMC Systems Biology_
+#### FAIRDOM-SEEK: a systems biology data and model management platform. _BMC Systems Biology_
 
 Wolstencroft, K, Owen, S, Krebs, O, Nguyen, Q, Stanford, NJ, Golebiewski, M, Weidemann, A, Bittkowski, M, An, L, Shockley, D, Snoep, JL, Mueller, W, Goble, C (2015) 
 SEEK: a systems biology data and model management platform. BMC Systems Biology, Issue 9:33, pages 33, 2015. 
@@ -28,28 +28,28 @@ Wolstencroft K, Krebs O, Snoep J.L, Stanford N.J, Bacall F, Golebiewski M, Kuzya
 Malmström L, Rinn B, Müller W, and Goble C (2016) FAIRDOMHub: a repository and collaboration environment for sharing systems biology research. Nucleic Acids Research, 2016, 10.1093/nar/gkw1032.
   [DOI: 10.1093/nar/gkw1032](https://dx.doi.org/10.1093/nar/gkw1032)
 
-### Can I use SEEK in my research project?
+### Can I use FAIRDOM-SEEK in my research project?
 
 Of course. There are two different ways for you to get started.
 
 You can register on [FAIRDOMHub](https://fairdomhub.org) and create your own project. Our user guide gives you more details [https://docs.seek4science.org/help/user-guide/index.html](https://docs.seek4science.org/help/user-guide/index.html)
-You can download and install a local version of SEEK for your project/group to use. You can find out more information here [http://docs.seek4science.org/tech/install.html](http://docs.seek4science.org/tech/install.html)
+You can download and install a local version of FAIRDOM-SEEK for your project/group to use. You can find out more information here [http://docs.seek4science.org/tech/install.html](http://docs.seek4science.org/tech/install.html)
 
 Both are free to use, but with limited support unless they are used in conjunction with a FAIRDOM service package.
 
-### Can I arrange a data management service package with SEEK?
+### Can I arrange a data management service package with FAIRDOM-SEEK?
 
 Yes! You can find out more about our service packages on our FAIRDOM website [https://fair-dom.org/cost-fairdom-in-your-project/](https://fair-dom.org/cost-fairdom-in-your-project/) or you can contact us directly on community@fair-dom.org
 
-### How do I contribute to SEEK
+### How do I contribute to FAIRDOM-SEEK
 
-We welcome many contributions to our SEEK software. It is possible to easily contribute to both the software or the documentation through GitHub.
+We welcome many contributions to our FAIRDOM-SEEK software. It is possible to easily contribute to both the software or the documentation through GitHub.
 
-Details on how to contribute to SEEK can be found at [http://docs.seek4science.org/contributing.html](http://docs.seek4science.org/contributing.html)
+Details on how to contribute to FAIRDOM-SEEK can be found at [http://docs.seek4science.org/contributing.html](http://docs.seek4science.org/contributing.html)
 
 You can also contribute at a higher level to FAIRDOM in general - details of which can be found at [http://fair-dom.org/contribute/](http://fair-dom.org/contribute/).
 
-### What 'data' should be uploaded into SEEK?
+### What 'data' should be uploaded into FAIRDOM-SEEK?
 
 The term 'data' covers
 
@@ -71,33 +71,33 @@ The JERM is our Just Enough Results Model for describing results and the relatio
 You can find out all about the JERM and our templates built around it at [Just Enough Results Model](https://www.jermontology.org).
 
 ### What is ISA (Investigation - Study - Assay)
-Underpinning SEEK is the ISA infrastructure, a standard format for describing how individual experiments are aggregated into wider studies and investigations.
+Underpinning FAIRDOM-SEEK is the ISA infrastructure, a standard format for describing how individual experiments are aggregated into wider studies and investigations.
 
 * Investigations are high level descriptions of the research carried out by a particular project. They typically reflect the general aims of the project, for example, carbon metabolism or anaerobic/aerobic transitions.
 * A Study is a series of experiments (or assays) which can be combined to answer a particular biological question. These experiments might be a series of the same type of assay (for example, microarrays for different conditions), or they may be a collection of different types of assay (e.g. a combination of array and mass spec measurements).
 * An Assay describes a particular experiment. It allows you to associate data files, SOPs and models together as well as describing the type of assay and any technology required to perform the experiment.
 More about ISA here [http://isacommons.org/](http://isacommons.org/)
 
-### What are the advantages of sharing in SEEK over publication?
-SEEK is a platform that allows data sharing through the full lifecycle of a project, and across projects. It allows you to catalogue your data during the early stages of creation, share with other members of your project when needed, and make public on publication or when suitable. This allows you to catalogue all of your data in one place, and share easily with relevant parties. Moreover, SEEK provides you bundle of tools to analyse the data, simulate the models, view the document directly
+### What are the advantages of sharing in FAIRDOM-SEEK over publication?
+FAIRDOM-SEEK is a platform that allows data sharing through the full lifecycle of a project, and across projects. It allows you to catalogue your data during the early stages of creation, share with other members of your project when needed, and make public on publication or when suitable. This allows you to catalogue all of your data in one place, and share easily with relevant parties. Moreover, SEEK provides you bundle of tools to analyse the data, simulate the models, view the document directly
 
 ### What are the advantages of making my data open?
 Sharing your data allows others to access and use it in ways you may not. This maximises the feasible contributions you and your data can make to the science community.
 
-### How do I enter my data into SEEK?
+### How do I enter my data into FAIRDOM-SEEK?
 To add data to your profile click on the “create” button in the top left corner of the screen. From there you can select the type of data you want to upload and then submit it in a suitable format upon request.
 
-### Are the data I upload kept in SEEK?
-Yes, the data uploaded into SEEK are kept in SEEK. Where the data are stored elsewhere (e.g. a publication) a description of the data and a link can be used. In this instance, the actual data are not stored in SEEK.
+### Are the data I upload kept in FAIRDOM-SEEK?
+Yes, the data uploaded into FAIRDOM-SEEK are kept in FAIRDOM-SEEK. Where the data are stored elsewhere (e.g. a publication) a description of the data and a link can be used. In this instance, the actual data are not stored in SEEK.
 
-### Can I only include data from projects associated with SEEK?
-When you sign up to SEEK, your profile will be associated with relevant projects. All data have to be linked to a person and project, therefore only data relevant to specific projects can be uploaded.
+### Can I only include data from projects associated with FAIRDOM-SEEK?
+When you sign up to FAIRDOM-SEEK, your profile will be associated with relevant projects. All data have to be linked to a person and project, therefore only data relevant to specific projects can be uploaded.
 
 ### What if my data changes?
-If data changes slightly you can upload a new version of the data to the same entry within SEEK. Visitors to that entry will automatically be presented with the newer version.
+If data changes slightly you can upload a new version of the data to the same entry within FAIRDOM-SEEK. Visitors to that entry will automatically be presented with the newer version.
 If you wish to, and have the correct permissions, you can delete data.If they are associated with other assets or assays, you may first have to remove the associations, otherwise you will be unable to delete it.
 
-### Can I view all data uploaded to SEEK?
+### Can I view all data uploaded to FAIRDOM-SEEK?
 No. You will only be able to see data that is shared with you, this includes
 
 * your own private data
@@ -107,24 +107,24 @@ No. You will only be able to see data that is shared with you, this includes
 
 Data can be shared such that only information about the data is visible, or so that the data itself can also be downloaded. If you can read information about the data, but not access the data itself, you may contact the data holder directly to request permission using the “request permission” button.
 
-### What data can be retrieved from SEEK?
+### What data can be retrieved from FAIRDOM-SEEK?
 Any data uploaded can be downloaded, provided you have access permission. Where data are linked via a URL, you will have to follow the URL to access the data.
 
-### How secure is my data in SEEK?
+### How secure is my data in FAIRDOM-SEEK?
 SEEK is built on the secure Ruby on Rails framework, and it is updated regularly and secured through https. We recommend that users use unique passwords.
 
 ### How do I request restricted data?
 If you can see and item, but do not have download access, there is a request button, which you can use to submit a request for the data. When doing so, an email will be sent to the owner of the data.
-You can of course also contact the author directly, if they have provided contact details in SEEK.
+You can of course also contact the author directly, if they have provided contact details in FAIRDOM-SEEK.
 
-### Can I refer from SEEK data to my data stored in another (public) repository?
+### Can I refer from FAIRDOM-SEEK data to my data stored in another (public) repository?
 Yes, you can add data as a URL, which is common in the case of publications.
 
-### Can I build an interface to get data from SEEK to my analysis tool? and back?
+### Can I build an interface to get data from FAIRDOM-SEEK to my analysis tool? and back?
 Yes, you can use a RESTful API to access the data within SEEK, and export as JSON or RDF. Some data is also exported as Comma Separated Values (CSV). Details about using the API can be found at [https://docs.seek4science.org/help/user-guide/api.html](https://docs.seek4science.org/help/user-guide/api.html)
 
-### What is the distribution License for SEEK?
-SEEK is open source software, and is distributed under the [BSD-3](https://github.com/seek4science/seek/blob/master/BSD-LICENSE) clause License. The source code is all available, to find out more please visit our Getting SEEK page.
+### What is the distribution License for FAIRDOM-SEEK?
+SEEK is open source software, and is distributed under the [BSD-3](https://github.com/seek4science/seek/blob/master/BSD-LICENSE) clause License. The source code is all available, to find out more please visit our Getting FAIRDOM-SEEK page.
 
-### Can I install my own version of SEEK?
-Yes, please visit our [Getting SEEK page](/get_seek) for information on how to install your own copy of SEEK. You also have the option to download a Virtual Machine image if you wish to try out a SEEK installation quickly.
+### Can I install my own version of FAIRDOM-SEEK?
+Yes, please visit our [Getting FAIRDOM-SEEK page](/get_seek) for information on how to install your own copy of FAIRDOM-SEEK. You also have the option to download a Virtual Machine image if you wish to try out a FAIRDOM-SEEK installation quickly.

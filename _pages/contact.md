@@ -11,8 +11,8 @@ We have a number of ways you can contact us:
 
 We have 2 Google Groups. These groups are open to anonymous queries, you don't have to be a group member to submit a query.
 
-* For technical or development related queries please use [SEEK Developers Group](http://groups.google.com/group/seek-developers)
-* For general queries, or queries about using SEEK please us [Seek4Science Group](http://groups.google.com/group/seek4science)
+* For technical or development related queries please use [FAIRDOM-SEEK Developers Group](http://groups.google.com/group/seek-developers)
+* For general queries, or queries about using FAIRDOM-SEEK please us [Seek4Science Group](http://groups.google.com/group/seek4science)
 
 
 ## Contact form

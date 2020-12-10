@@ -4,18 +4,18 @@ title: 'About Us'
 layout: 'single'
 ---
 
-The SEEK software is developed by teams at the **University of Manchester** in the United Kingdom, **Heidelberg Institute for Theoretical Studies** in Germany, and the **University of Leiden, Netherlands**.
+The FAIRDOM-SEEK software is developed by teams at the **University of Manchester** in the United Kingdom, **Heidelberg Institute for Theoretical Studies** in Germany, and the **University of Leiden, Netherlands**.
 
-SEEK is funded as part of the Research Infrastructure project [FAIRDOM](https://fair-dom.org), who's current and former members are described [HERE](https://fair-dom.org/about-fairdom/people/)
+FAIRDOM-SEEK is funded as part of the Research Infrastructure project [FAIRDOM](https://fair-dom.org), who's current and former members are described [HERE](https://fair-dom.org/about-fairdom/people/)
 
 Of course we are also highly grateful to the input and feedback provided by all our users, 
 in particular our [PALS](https://fair-dom.org/communities/pals/pals-gallery/) and [Contributors](https://github.com/seek4science/seek/graphs/contributors).
 
-## Citing SEEK
+## Citing FAIRDOM-SEEK
 
-If you have been using SEEK in your research then please cite us. The key SEEK publications to cite are:
+If you have been using FAIRDOM-SEEK in your research then please cite us. The key FAIRDOM-SEEK publications to cite are:
 
-### SEEK: a systems biology data and model management platform. _BMC Systems Biology_
+### FAIRDOM-SEEK: a systems biology data and model management platform. _BMC Systems Biology_
 
 Wolstencroft, K, Owen, S, Krebs, O, Nguyen, Q, Stanford, NJ, Golebiewski, M, Weidemann, A, Bittkowski, M, An, L, Shockley, D, Snoep, JL, Mueller, W, Goble, C (2015) 
 SEEK: a systems biology data and model management platform. BMC Systems Biology, Issue 9:33, pages 33, 2015. 
