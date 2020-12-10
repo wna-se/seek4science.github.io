@@ -49,7 +49,7 @@ row2:
 ![SEEK_logo](/assets/images/fairdom-seek-logo-alt.svg){: #front-screen-logo}
 
 
-FAIRDOM-SEEK is a web-based cataloguing and commons platform, for sharing heterogeneous scientific research datasets, models or simulations, processes and research outcomes. 
+**FAIRDOM-SEEK** is a web-based cataloguing and commons platform, for sharing heterogeneous scientific research datasets, models or simulations, processes and research outcomes. 
 It preserves associations between them, along with information about the people and organisations.
 
 
