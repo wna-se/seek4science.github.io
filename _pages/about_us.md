@@ -4,7 +4,7 @@ title: 'About Us'
 layout: 'single'
 ---
 
-The FAIRDOM-SEEK software is developed by teams at the **University of Manchester** in the United Kingdom, **Heidelberg Institute for Theoretical Studies** in Germany, and the **University of Leiden, Netherlands**.
+The FAIRDOM-SEEK software is developed by teams at the **University of Manchester** in the United Kingdom, **Heidelberg Institute for Theoretical Studies** in Germany, **ELIXIR Belgium**, and the **University of Leiden, Netherlands**.
 
 FAIRDOM-SEEK is funded as part of the Research Infrastructure project [FAIRDOM](https://fair-dom.org), who's current and former members are described [HERE](https://fair-dom.org/about-fairdom/people/)
 
