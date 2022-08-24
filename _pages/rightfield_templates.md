@@ -4,7 +4,7 @@ title: "Semantic spreadsheet templates"
 layout: single
 ---
 
-[RightField](http://rightfield.org) enabled sheets allow rich semantic descriptions of data. Our [Just Enough Results Model (JERM)](https://www.jermontology.org) can be used with Rightfield.
+[RightField](http://www.rightfield.org.uk) enabled sheets allow rich semantic descriptions of data. Our [Just Enough Results Model (JERM)](https://www.jermontology.org) can be used with Rightfield.
 
 RightField is a tool we created for FAIRDOM-SEEK, but is also attracting interest from other disciplines. RightField is an open-source tool for adding ontology term selection to Excel spreadsheets. 
 For each annotation field, RightField can specify a range of allowed terms from a chosen ontology (subclasses, individuals or combinations). 
